@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+    <head>
+        
+        <meta charset="utf-8" />
+        <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="https://saona-raimundo.github.io/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Similar playground</title>
+    <link rel="modulepreload" href="./similar_playground-44cf543d0036e33a.js" crossorigin=anonymous integrity="sha384-ko3rfL9fUTnQp1Ax8w2P7pA0QBdjaR4AoIB+LZhzDu/Tyko0o6+DafClmwtMx2s3"><link rel="preload" href="./similar_playground-44cf543d0036e33a_bg.wasm" crossorigin=anonymous integrity="sha384-CK08kqbqyRl4s/3uB80GvCfcpVByg4bFjzfMcvMzdmz9/IW8ZPwaTTCz+egrZ+92" as="fetch" type="application/wasm"></head>
+    <body>
+        <noscript>
+            This page contains webassembly and javascript content, please enable
+            javascript in your browser.
+        </noscript>
+    
+<script type="module" nonce="aXz2lu8YY2/WC9YmkI+w2Q==">
+import init, * as bindings from './similar_playground-44cf543d0036e33a.js';
+const wasm = await init('./similar_playground-44cf543d0036e33a_bg.wasm');
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>
